@@ -1,0 +1,16 @@
+{
+    "name": "samir/combat_code",
+    "type": "no",
+    "autoload": {
+        "psr-4": {
+            "Samir\\CombatCode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "samir yakhlef",
+            "email": "samir.yakhlef30@gmail.com"
+        }
+    ],
+    "require": {}
+}
