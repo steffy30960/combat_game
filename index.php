@@ -11,8 +11,8 @@ require 'vendor/autoload.php';
 
 
 $heros = new Heros;
-echo "vie Heros : "  .  $heros->vie;
 
-$minion = new Minion;
-$heros->attack($minion->degat);
-echo "<br> vie Heros : "  .  $heros->vie;
+
+
+
+require 'Story1.php';
