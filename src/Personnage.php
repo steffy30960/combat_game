@@ -2,8 +2,8 @@
 namespace App;
 class Personnage {
 
-    protected $vie;
-    protected $degat;
+    public $vie;
+    public $degat;
     public $bonus_vie;
     public $bonus_armure;
 
@@ -12,7 +12,7 @@ class Personnage {
 
     
     public function attack($degat){
-        $this->vie =  $this->vie -$degat;
+        $this->vie =  $this->vie - $degat;
     }
 
     
