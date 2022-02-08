@@ -1,5 +1,5 @@
 <?php
-
+namespace App;
 class Personnage {
 
     protected $vie;
@@ -8,12 +8,11 @@ class Personnage {
     public $bonus_armure;
 
 
-    protected function attaque_heros($cible) {
-       $cible->vie = "15" ;
+   
 
-    }
-    protected function bonus_vie(){
-        
+    
+    public function attack($degat){
+        $this->vie =  $this->vie -$degat;
     }
 
     
