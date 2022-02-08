@@ -1,10 +1,12 @@
 <?php
 namespace App;
-class Heros {
-    private $vie;
-    private $degat;
-    public $bonus_vie;
-    public $bonus_armure;
+
+use Personnage;
+
+class Heros extends Personnage{
+    public $vie;
+    public $degat;
+ 
 
    public function __construct()
         {
