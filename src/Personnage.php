@@ -7,13 +7,11 @@ class Personnage {
     public $bonus_vie;
     public $bonus_armure;
 
-
-   
-
     
     public function attack($degat){
         $this->vie =  $this->vie - $degat;
+      
     }
 
-    
+  
 }
